@@ -1,5 +1,5 @@
 all:
 	gcc 1_handler.c -o handler
-        gcc sender.c -o sender
+    gcc sender.c -o sender
 	gcc 2_block_sigint.c -o 2_block
 	gcc 3_event_loop.c -o 3_event
